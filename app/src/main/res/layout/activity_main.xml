@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dotlun.digitech.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_marginTop="8dp"
+            android:id="@+id/imagebtnA"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/canho209" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Căn Hộ A209M"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageButton
+            android:id="@+id/imagebtnD"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/canhod" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Căn Hộ D"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageButton
+            android:layout_marginTop="8dp"
+            android:id="@+id/imagebtnF"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/canhof" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Căn Hộ F"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+</ScrollView>
